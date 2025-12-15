@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+    position: fixed;
+    color: white;
+    
+
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+}
+
+.navlist a{
+    color: white;
+     text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.left-container, .right-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left-container{
+    background-color: #262525;
+    width: 75%;
+    padding-left: 3rem;
+    
+}
+
+.right-container{
+    background-color:#3877FF;
+    width: 25%;
+    
+}
+
+.icons .fa-brands{
+    color: #bbbbbb ;
+    font-size: 2rem;
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content{
+    margin-left: 4rem;
+   
+   
+}
+
+.content h2{
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 15px;
+}
+.content h1{
+    font-size: 3rem;
+    color: #5DB9EE;
+    margin-bottom: 10px;
+   
+}
+span{
+    color: #5db9ee; ;
+}
+
+p{
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.btn button{
+    border: 0.1rem solid #5db9ee;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.first{
+    background-color: #5db9ee;
+    color: black;
+}
+
+.second{
+    background-color:#262525 ;
+    color:#5DB9EE ;
+    
+    margin-left: 2rem;
+}
+
+.first:hover{
+    background-color: transparent;
+    color: #5DB9EE;
+   
+    
+}
+.second:hover{
+    color:black;
+    background-color: #5DB9EE;
+}
+
+.icons .fa-brands:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left:70%;
+    transform: translate(-50%, -50%);
+
+}
+   
+.circle:nth-child(1){
+    background-color:#262525;
+    width: 38rem;
+}
+.circle:nth-child(2){
+  background-image: url("./image/saahaj.jpg");
+    width: 30rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1rem solid #fff;
+    box-shadow: 0 0 2rem #fff ,
+    inset 0 0 2rem #fff ,
+    0 0 2rem #3877ff,
+    inset 0 0 2rem #3877ff,
+    0 0 6rem #3877ff,
+    inset 0 0 6rem #3877ff
+    ;
+}
+    
